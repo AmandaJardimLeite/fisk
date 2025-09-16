@@ -13,7 +13,6 @@ describe('ScenarioController', () => {
 
     controller = module.get<ScenarioController>(ScenarioController);
   });
-
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
